@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+        .row.content {height: 1500px}
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {height: auto;}
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav">
+            <h4>Clever name Here</h4>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#section1">Me casa es tu salsa</a></li>
+                <li><a href="#section2">no new friends</a></li>
+                <li><a href="#section3">yikes</a></li>
+                <li><a href="#section3">disgruntled cornfeild</a></li>
+            </ul><br>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Blog..">
+                <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+            <h4><small>RECENT POSTS</small></h4>
+            <hr>
+            <h2>Legos suck</h2>
+            <h5><span class="glyphicon glyphicon-time"></span> Post by Zombie Jesus @ 34 Hi-C</h5>
+            <h5><span class="label label-danger">legos</span> <span class="label label-primary">more legos</span></h5><br>
+            <p>Stepping on legos has to be on my list of things to do before I die. I mean those little things are 100% deadly. theyve got the power to break a grown mans leg and it doesnt even touch a gram in weight! Im gonna stop this sarcasm in the middle cause i just realized that broken bones and surgery and medical bills and missing out on school that was meant to be your ticket to a better life probably is stressing you out right now. Real life sucks, eh? Just keep on being you and maybe things will happen. Tomorrow you could be a billionaire, who knows.</p>
+            <br><br>
+
+            <h4><small>'ANOTHA ONE' - DJ FAT GUY WITH TOO MUCH MONEY</small></h4>
+            <hr>
+            <h2>Officially wISHING YOU gOOD HEalTH</h2>
+            <h5><span class="glyphicon glyphicon-time"></span> Post by my mom, Sep 11, 2018.</h5>
+            <h5><span class="label label-success">Alligator snapping turtles are aggressive</span></h5><br>
+            <p>Okay hopefully you dont take offence to any of my random jokes and thoughts. I thought the best "Get better" page would be one that makes you laugh, even if its a little bit. Im blanking out but trust me, there was a heartfelt speech in my head ready for ya. Great day to run out of my ADD meds, yeah? Anywho, Get to healing and all that nice stuff. Im rooting for ya!</p>
+            <hr>
+
+            <h4>Leave a Comment pls:</h4>
+            <form role="form">
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+            <br><br>
+
+            <p><span class="badge">2</span> Comments:</p><br>
+
+            <div class="row">
+                <div class="col-sm-2 text-center">
+                    <img src="bandmember.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                </div>
+                <div class="col-sm-10">
+                    <h4>Toewithgangrene <small> dont worry about when I posted this</small></h4>
+                    <p>Keep up the GREAT work!My toe feels funny. </p>
+                    <br>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                </div>
+                <div class="col-sm-10">
+                    <h4>ANgry ProGRAMMaR <small>fourteen hundred ninety two</small></h4>
+                    <p> I am looking forward to read about your trendy life. </p>
+                    <br>
+                    <p><span class="badge">1</span> Comment:</p><br>
+                    <div class="row">
+                        <div class="col-sm-2 text-center">
+                            <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                        </div>
+                        <div class="col-xs-10">
+                            <h4>Used scrillopad <small>Sep 25, 2015, 8:28 PM</small></h4>
+                            <p>Ready for the memes</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid">
+    <p>There are several dangerous legos in my boot</p>
+</footer>
+
+</body>
+</html>
